@@ -1,0 +1,50 @@
+.c-details_thumbnail {
+  width: 67.1093%;
+  max-height: 533px;
+  float: left;
+  overflow: hidden;
+  text-align: center; }
+
+.c-details_information {
+  width: 27.8856%;
+  float: right; }
+  .c-details_information_small {
+    font-size: 13px;
+    margin-bottom: 10px; }
+  .c-details_information_title {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.3em;
+    margin-bottom: 30px; }
+  .c-details_information_price {
+    font-size: 38px;
+    display: table;
+    margin-bottom: 55px; }
+    .c-details_information_price small {
+      font-size: 19px;
+      font-weight: normal;
+      float: right;
+      margin-top: 4px; }
+  .c-details_information_buy {
+    font-size: 25px;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    display: table;
+    cursor: pointer;
+    background: #397eff;
+    width: 256px;
+    max-width: 100%;
+    padding: 15px 0;
+    margin: 0 auto; }
+
+.c-details_description {
+  width: 67.1093%;
+  margin-top: 60px; }
+  .c-details_description h4 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 34px; }
+  .c-details_description p {
+    font-size: 15px;
+    line-height: 1.3em; }

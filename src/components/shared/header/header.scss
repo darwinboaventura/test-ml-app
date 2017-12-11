@@ -1,0 +1,19 @@
+@import '../../../assets/scss/_variables.scss';
+
+// Header
+
+.c-header {
+	padding: 13px 0;
+	background: #fbe707;
+
+	&_logo {
+		width: (77/$wrapper-width) * 100%;
+		float: left;
+		margin-top: 10px;
+	}
+
+	.c-search {
+		width: (1288/$wrapper-width) * 100%;
+		float: right;
+	}
+}

@@ -1,0 +1,147 @@
+@import '../../../assets/scss/_variables.scss';
+
+// Layout
+
+.l-pages {
+	padding: 20px 0;
+
+	.c-breadcrumb {
+		margin-bottom: 20px;
+	}
+}
+
+// Header
+
+.c-header {
+	padding: 13px 0;
+	background: #fbe707;
+
+	&_logo {
+		width: (77/$wrapper-width) * 100%;
+		float: left;
+		margin-top: 10px;
+	}
+
+	.c-search {
+		width: (1288/$wrapper-width) * 100%;
+		float: right;
+	}
+}
+
+// Search
+
+.c-search {
+	input {
+		height: 59px;
+		border: 0;
+		float: left;
+	}
+
+	input[type="text"] {
+		width: (1229/1288) * 100%;
+		padding: 0 20px;
+		border: 1px solid #ccc;
+		border-right: 0;
+		border-radius: 3px;
+	}
+
+	input[type="submit"] {
+		width: (59/1288) * 100%;		
+		border-radius: 0 3px 3px 0;
+		border: 1px solid #ccc;
+		background-color: #fff;
+		background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#f1f1f1));
+		background-image: -webkit-linear-gradient(#fff,#f1f1f1);
+		background-image: linear-gradient(#fff,#f1f1f1);
+		cursor: pointer;
+	}
+}
+
+// Breadcrumb
+
+.c-breadcrumb {
+	li {
+		float: left;
+		margin-left: 6px;
+
+		span, a {
+			font-size: 15px;
+			color: #999;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: #000;
+		}
+	}
+
+	li:first-child {
+		margin-left: 0;
+	}
+}
+
+// Search
+
+.c-stage {
+	padding: 20px 16px;
+	background: #fff;
+}
+
+// List
+
+.c-list {
+	&_item {
+		padding-bottom: 29px;
+		margin-bottom: 29px;
+		border-bottom: 1px solid #ededed;
+
+		&_thumbnail {
+			width: (188/996) * 100%;
+			height: 188px;
+			overflow: hidden;
+			float: left;
+		}
+
+		&_content {
+			width: (793/996) * 100%;
+			float: right;
+			padding: 20px 0;
+
+			.column-1 {
+				width: (601/793) * 100%;
+				float: left;
+			}
+
+			.column-2 {
+				width: (171/793) * 100%;
+				float: right;
+				padding-top: 25px;
+			}
+
+			h1, h2 {
+				color: #000;
+			}
+
+			h2 {
+				font-size: 25px;
+				margin-bottom: 20px;
+			}
+
+			h1 {
+				font-size: 18px;
+				line-height: 1.3em;
+			}
+
+			span {
+				font-size: 13px;
+				color: #333;
+			}
+		}
+	}
+
+	&_item:last-child {
+		border-bottom: 0;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+}

@@ -1,0 +1,21 @@
+.c-search input {
+  height: 59px;
+  border: 0;
+  float: left; }
+
+.c-search input[type="text"] {
+  width: 95.41925%;
+  padding: 0 20px;
+  border: 1px solid #ccc;
+  border-right: 0;
+  border-radius: 3px; }
+
+.c-search input[type="submit"] {
+  width: 4.58075%;
+  border-radius: 0 3px 3px 0;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f1f1f1));
+  background-image: -webkit-linear-gradient(#fff, #f1f1f1);
+  background-image: linear-gradient(#fff, #f1f1f1);
+  cursor: pointer; }
